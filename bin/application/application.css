@@ -1,1 +1,45 @@
-/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root {
+    -fx-background-color: #1a1a1a; /* Dark background color */
+}
+
+#addTf, #searchTf {
+    -fx-background-color: #333333; /* Darker text field background */
+    -fx-text-fill: white; /* Text color */
+    -fx-prompt-text-fill: gray; /* Placeholder text color */
+}
+
+.button {
+    -fx-background-color: #8b0000; /* Burgundy button background */
+    -fx-text-fill: white; /* Button text color */
+}
+
+.button:hover {
+    -fx-background-color: #a52a2a; /* Darker burgundy on hover */
+}
+
+.list-view {
+    -fx-background-color: #333333; /* Darker list view background */
+    -fx-control-inner-background: #333333; /* Darker list view inner background */
+    -fx-selection-bar: #8b0000; /* Burgundy selection bar */
+    -fx-selection-bar-text: white; /* Selection text color */
+}
+
+.checkbox {
+    -fx-text-fill: white; /* Checkbox text color */
+}
+
+.checkbox .box {
+    -fx-border-color: #8b0000; /* Burgundy checkbox border color */
+    -fx-background-color: #1a1a1a; /* Dark background color for checkbox */
+}
+
+.checkbox:selected .box {
+    -fx-border-color: #a52a2a; /* Darker burgundy on selected */
+    -fx-background-color: #8b0000; /* Burgundy background color on selected */
+}
+
+.text-field, .check-box {
+    -fx-background-color: #2d2d2d; /* Slightly lighter background for text fields and checkboxes */
+    -fx-text-fill: #FFFFFF; /* White text */
+    -fx-font-size: 12px;
+}
